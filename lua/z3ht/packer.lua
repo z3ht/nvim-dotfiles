@@ -26,7 +26,6 @@ return require('packer').startup(function(use)
         end
     })
     use("wellle/context.vim")
-    use("romgrk/barbar.nvim")
 
     use {
         'nvim-treesitter/nvim-treesitter',
