@@ -25,6 +25,8 @@ return require('packer').startup(function(use)
             vim.cmd('colorscheme rose-pine')
         end
     })
+    use("wellle/context.vim")
+    use("romgrk/barbar.nvim")
 
     use {
         'nvim-treesitter/nvim-treesitter',
@@ -66,8 +68,6 @@ return require('packer').startup(function(use)
     use("mfussenegger/nvim-dap")
     use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }
     use("theHamsta/nvim-dap-virtual-text")
-
-    use("wellle/context.vim")
 
     use {
         'mrjones2014/legendary.nvim',
