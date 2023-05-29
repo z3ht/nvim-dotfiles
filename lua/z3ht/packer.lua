@@ -38,6 +38,7 @@ return require('packer').startup(function(use)
     use("mbbill/undotree")
     use "sindrets/diffview.nvim"
     use("junegunn/gv.vim")
+    use('lewis6991/gitsigns.nvim')
 
     use {
         'VonHeikemen/lsp-zero.nvim',
