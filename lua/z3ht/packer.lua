@@ -12,6 +12,11 @@ return require('packer').startup(function(use)
         -- or                            , branch = '0.1.x',
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
+    use {
+        'gaborvecsei/memento.nvim',
+        requires = { { 'nvim-lua/plenary.nvim' } }
+    }
+    use("theprimeagen/harpoon")
 
     use({
         'rose-pine/neovim',
@@ -29,11 +34,9 @@ return require('packer').startup(function(use)
         end, }
     use("nvim-treesitter/playground")
 
-    use("theprimeagen/harpoon")
-
-    use("mbbill/undotree")
-
     use("tpope/vim-fugitive")
+    use("mbbill/undotree")
+    use "sindrets/diffview.nvim"
 
     use {
         'VonHeikemen/lsp-zero.nvim',

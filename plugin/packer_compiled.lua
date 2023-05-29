@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/context.vim",
     url = "https://github.com/wellle/context.vim"
   },
+  ["diffview.nvim"] = {
+    loaded = true,
+    path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/diffview.nvim",
+    url = "https://github.com/sindrets/diffview.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -138,6 +143,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["memento.nvim"] = {
+    loaded = true,
+    path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/memento.nvim",
+    url = "https://github.com/gaborvecsei/memento.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
