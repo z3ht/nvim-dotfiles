@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["gv.vim"] = {
+    loaded = true,
+    path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/gv.vim",
+    url = "https://github.com/junegunn/gv.vim"
+  },
   harpoon = {
     loaded = true,
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -143,6 +148,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/nvim-dap",
     url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-dap-ui"] = {
+    loaded = true,
+    path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
+  },
+  ["nvim-dap-virtual-text"] = {
+    loaded = true,
+    path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/nvim-dap-virtual-text",
+    url = "https://github.com/theHamsta/nvim-dap-virtual-text"
   },
   ["nvim-lspconfig"] = {
     loaded = true,

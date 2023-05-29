@@ -18,3 +18,6 @@ dap.configurations.cpp = {
         targetArchitecture = 'arm64'
     }
 }
+
+local text = require("nvim-dap-virtual-text")
+text.setup()
