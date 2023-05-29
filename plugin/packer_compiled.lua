@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
+  ["legendary.nvim"] = {
+    loaded = true,
+    path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/legendary.nvim",
+    url = "https://github.com/mrjones2014/legendary.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -199,6 +204,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
+  },
+  ["sqlite.lua"] = {
+    loaded = true,
+    path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/sqlite.lua",
+    url = "https://github.com/kkharji/sqlite.lua"
   },
   ["telescope.nvim"] = {
     loaded = true,

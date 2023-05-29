@@ -37,6 +37,7 @@ return require('packer').startup(function(use)
     use("tpope/vim-fugitive")
     use("mbbill/undotree")
     use "sindrets/diffview.nvim"
+    use("junegunn/gv.vim")
 
     use {
         'VonHeikemen/lsp-zero.nvim',
@@ -67,5 +68,9 @@ return require('packer').startup(function(use)
 
     use("wellle/context.vim")
 
-    use("junegunn/gv.vim")
+    use {
+        'mrjones2014/legendary.nvim',
+        requires = { { 'kkharji/sqlite.lua' } }
+    }
+
 end)
