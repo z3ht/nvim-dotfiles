@@ -73,4 +73,24 @@ return require('packer').startup(function(use)
         requires = { { 'kkharji/sqlite.lua' } }
     }
 
+    use {
+        'phaazon/hop.nvim',
+        branch = 'v2'
+    }
+    use {
+        'ggandor/leap.nvim',
+        requires = { 'tpope/vim-repeat' }
+    }
+
+    use('numToStr/Comment.nvim')
+
+    use {
+        'EthanJWright/vs-tasks.nvim',
+        requires = {
+            'nvim-lua/popup.nvim',
+            'nvim-lua/plenary.nvim',
+            'nvim-telescope/telescope.nvim'
+        }
+    }
+
 end)
