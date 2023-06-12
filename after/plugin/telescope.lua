@@ -14,14 +14,26 @@ telescope.setup {
   pickers = {
     git_commits = {
       mappings = {
-        n = { ["<C-r>d"] = telescope.extensions.diffviewer.commits },
-        i = { ["<C-r>d"] = telescope.extensions.diffviewer.commits }
+        n = { ["<C-r>d"] = telescope.extensions.diffviewer.diff },
+        i = { ["<C-r>d"] = telescope.extensions.diffviewer.diff }
+      }
+    },
+    git_bcommits = {
+      mappings = {
+        n = { ["<C-r>d"] = telescope.extensions.diffviewer.diff },
+        i = { ["<C-r>d"] = telescope.extensions.diffviewer.diff }
       }
     },
     git_branches = {
       mappings = {
-        n = { ["<C-r>d"] = telescope.extensions.diffviewer.branches },
-        i = { ["<C-r>d"] = telescope.extensions.diffviewer.branches }
+        n = { ["<C-r>d"] = telescope.extensions.diffviewer.diff },
+        i = { ["<C-r>d"] = telescope.extensions.diffviewer.diff }
+      }
+    },
+    git_stash = {
+      mappings = {
+        n = { ["<C-r>d"] = telescope.extensions.diffviewer.diff },
+        i = { ["<C-r>d"] = telescope.extensions.diffviewer.diff }
       }
     }
   }
