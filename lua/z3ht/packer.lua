@@ -28,7 +28,6 @@ return require('packer').startup(function(use)
             vim.cmd('colorscheme rose-pine')
         end
     })
-    use("wellle/context.vim")
 
     use {
         'nvim-treesitter/nvim-treesitter',
