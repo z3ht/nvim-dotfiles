@@ -28,6 +28,7 @@ return require('packer').startup(function(use)
             vim.cmd('colorscheme rose-pine')
         end
     })
+    use("wellle/context.vim")
 
     use {
         'nvim-treesitter/nvim-treesitter',
@@ -65,7 +66,14 @@ return require('packer').startup(function(use)
             { 'rafamadriz/friendly-snippets' },
         }
     }
+<<<<<<< HEAD
     use("WhoIsSethDaniel/toggle-lsp-diagnostics.nvim")
+=======
+
+    use("mfussenegger/nvim-dap")
+    use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }
+    use("theHamsta/nvim-dap-virtual-text")
+>>>>>>> f19595a61e827db286a931739898926f467ced05
 
     use {
         'mrjones2014/legendary.nvim',
