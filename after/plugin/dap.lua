@@ -21,3 +21,22 @@ dap.configurations.cpp = {
 
 local text = require("nvim-dap-virtual-text")
 text.setup()
+
+vim.keymap.set("n", "<leader>aq", function() dap.toggle_breakpoint() end)
+vim.keymap.set("n", "<leader>aa", function() dap.list_breakpoints() end)
+vim.keymap.set("n", "<leader>azz", function()  end)
+vim.keymap.set("n", "<leader>azg", function() end)
+-- vim.keymap.set("n", "<leader>a", function() dap.list_breakpoints() end)
+
+vim.keymap.set('n', '<Leader>df', function()
+  local widgets = require('dap.ui.widgets')
+  widgets.centered_float(widgets.frames)
+end)
+vim.keymap.set('n', '<Leader>df', function()
+  local widgets = require('dap.ui.widgets')
+  widgets.centered_float(widgets.frames)
+end)
+vim.keymap.set('n', '<Leader>ds', function()
+  local widgets = require('dap.ui.widgets')
+  widgets.centered_float(widgets.scopes)
+end)

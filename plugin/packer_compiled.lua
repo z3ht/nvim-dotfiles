@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["cmake-tools.nvim"] = {
+    loaded = true,
+    path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/cmake-tools.nvim",
+    url = "https://github.com/Civitasv/cmake-tools.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -108,11 +113,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
-  },
-  ["context.vim"] = {
-    loaded = true,
-    path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/context.vim",
-    url = "https://github.com/wellle/context.vim"
   },
   ["diffview.nvim"] = {
     loaded = true,
@@ -169,11 +169,6 @@ _G.packer_plugins = {
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["memento.nvim"] = {
-    loaded = true,
-    path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/memento.nvim",
-    url = "https://github.com/gaborvecsei/memento.nvim"
-  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -183,11 +178,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/nvim-dap",
     url = "https://github.com/mfussenegger/nvim-dap"
-  },
-  ["nvim-dap-ui"] = {
-    loaded = true,
-    path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
-    url = "https://github.com/rcarriga/nvim-dap-ui"
   },
   ["nvim-dap-virtual-text"] = {
     loaded = true,
@@ -203,6 +193,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ouroboros = {
+    loaded = true,
+    path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/ouroboros",
+    url = "https://github.com/jakemason/ouroboros"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -235,10 +230,20 @@ _G.packer_plugins = {
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/sqlite.lua",
     url = "https://github.com/kkharji/sqlite.lua"
   },
+  ["telescope-diffviewer.nvim"] = {
+    loaded = true,
+    path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/telescope-diffviewer.nvim",
+    url = "https://github.com/z3ht/telescope-diffviewer.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["toggle-lsp-diagnostics.nvim"] = {
+    loaded = true,
+    path = "/Users/firefly/.local/share/nvim/site/pack/packer/start/toggle-lsp-diagnostics.nvim",
+    url = "https://github.com/WhoIsSethDaniel/toggle-lsp-diagnostics.nvim"
   },
   undotree = {
     loaded = true,

@@ -8,13 +8,16 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
     use {
-        'nvim-telescope/telescope.nvim', tag = '0.1.0',
-        -- or                            , branch = '0.1.x',
+        'nvim-telescope/telescope.nvim',
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
     use {
-        'gaborvecsei/memento.nvim',
-        requires = { { 'nvim-lua/plenary.nvim' } }
+        'z3ht/telescope-diffviewer.nvim',
+        requires = {
+            "nvim-lua/plenary.nvim",
+            "nvim-telescope/telescope.nvim",
+            "sindrets/diffview.nvim",
+        }
     }
     use("theprimeagen/harpoon")
 
@@ -62,17 +65,16 @@ return require('packer').startup(function(use)
             { 'rafamadriz/friendly-snippets' },
         }
     }
-
-    use("mfussenegger/nvim-dap")
-    use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }
-    use("theHamsta/nvim-dap-virtual-text")
-
-    use("wellle/context.vim")
+    use("WhoIsSethDaniel/toggle-lsp-diagnostics.nvim")
 
     use {
         'mrjones2014/legendary.nvim',
-        requires = { { 'kkharji/sqlite.lua' } }
+        requires = { {'kkharji/sqlite.lua'} }
     }
+
+    use("mfussenegger/nvim-dap")
+    use("Civitasv/cmake-tools.nvim")
+    use("theHamsta/nvim-dap-virtual-text")
 
     use {
         'phaazon/hop.nvim',
@@ -83,7 +85,7 @@ return require('packer').startup(function(use)
         requires = { 'tpope/vim-repeat' }
     }
 
-    use('numToStr/Comment.nvim')
+     use('numToStr/Comment.nvim')
 
     use {
         'EthanJWright/vs-tasks.nvim',
@@ -94,4 +96,10 @@ return require('packer').startup(function(use)
         }
     }
 
+    use {
+        'jakemason/ouroboros',
+        requires = { {'nvim-lua/plenary.nvim'} }
+    }
+
 end)
+
