@@ -48,7 +48,7 @@ lsp.on_attach(function(client, bufnr)
   vim.keymap.set("n", "<leader>k", function() vim.lsp.buf.hover() end, opts)
   vim.keymap.set("n", "<leader>l", function() vim.lsp.buf.code_action() end, opts)
 
-  vim.keymap.set("n", "<leader>ss", function() vim.lsp.buf.workspace_symbol() end, opts)
+  vim.keymap.set("n", "<leader>sq", function() vim.lsp.buf.workspace_symbol() end, opts)
 
   vim.keymap.set("n", "<leader>sh", function() vim.lsp.buf.signature_help() end, opts)
   vim.keymap.set("n", "<leader>sn", function() vim.diagnostic.goto_prev() end, opts)
@@ -63,7 +63,7 @@ lsp.on_attach(function(client, bufnr)
   vim.keymap.set("n", "<leader>sl", function() vim.lsp.buf.references() end, opts)
 
   vim.keymap.set("n", "<leader>s;", function() vim.lsp.buf.rename() end, opts)
-  vim.keymap.set("n", "<leader>s'", function() vim.lsp.buf.format() end, opts)
+  vim.keymap.set({"n", "v"}, "<leader>s'", function() vim.lsp.buf.format() end, opts)
 end)
 
 lsp.setup()
@@ -76,6 +76,6 @@ require('toggle_lsp_diagnostics').init()
 vim.keymap.set("n", "<leader>;", vim.cmd.ToggleDiag)
 vim.keymap.set("n", "<leader>:", vim.cmd.ToggleDiagOn)
 
-vim.keymap.set("n", "<leader>sw", vim.cmd.Ouroboros)
+vim.keymap.set("n", "<leader>sd", vim.cmd.Ouroboros)
 
-vim.keymap.set("n", "<leader>m", vim.cmd.Mason)
+vim.keymap.set("n", "<leader>a/", vim.cmd.Mason)

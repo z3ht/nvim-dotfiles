@@ -19,6 +19,14 @@ return require('packer').startup(function(use)
             "sindrets/diffview.nvim",
         }
     }
+    use {
+        'nvim-telescope/telescope-dap.nvim',
+        requires = {
+            "nvim-lua/plenary.nvim",
+            "nvim-telescope/telescope.nvim",
+            "sindrets/diffview.nvim",
+        }
+    }
     use("theprimeagen/harpoon")
 
     use({
@@ -69,15 +77,13 @@ return require('packer').startup(function(use)
 
     use("mfussenegger/nvim-dap")
     use("theHamsta/nvim-dap-virtual-text")
+    use("Civitasv/cmake-tools.nvim")
 
     use {
         'mrjones2014/legendary.nvim',
         requires = { {'kkharji/sqlite.lua'} }
     }
 
-    use("mfussenegger/nvim-dap")
-    use("Civitasv/cmake-tools.nvim")
-    use("theHamsta/nvim-dap-virtual-text")
 
     use {
         'phaazon/hop.nvim',
