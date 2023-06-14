@@ -110,5 +110,7 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
+    use { "aserowy/tmux.nvim" }
+
 end)
 
